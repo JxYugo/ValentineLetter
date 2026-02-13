@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Letter for Jia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<img src="lovecat.gif" class="corner-gif left-gif" alt="Left GIF">
+<img src="lovecat2.gif" class="corner-gif right-gif" alt="Right GIF"> 
+
+<div class="heartfalling-container" aria-hidden="true">
+  <div class="heartfalling" style="left: 5%; animation-duration: 10s; animation-delay: 0s;"></div>
+  <div class="heartfalling" style="left: 15%; animation-duration: 8s; animation-delay: 2s;"></div>
+  <div class="heartfalling" style="left: 25%; animation-duration: 12s; animation-delay: 1s;"></div>
+  <div class="heartfalling" style="left: 35%; animation-duration: 9s; animation-delay: 3s;"></div>
+  <div class="heartfalling" style="left: 45%; animation-duration: 11s; animation-delay: 5s;"></div>
+  <div class="heartfalling" style="left: 55%; animation-duration: 10s; animation-delay: 4s;"></div>
+  <div class="heartfalling" style="left: 65%; animation-duration: 13s; animation-delay: 2s;"></div>
+  <div class="heartfalling" style="left: 75%; animation-duration: 9s; animation-delay: 6s;"></div>
+  <div class="heartfalling" style="left: 85%; animation-duration: 12s; animation-delay: 3s;"></div>
+  <div class="heartfalling" style="left: 95%; animation-duration: 10s; animation-delay: 7s;"></div>
+</div>
+
+<div class="container">
+  <div class="envelope-wrapper">
+    <div class="envelope">
+      <div class="letter">
+        <div class="text">
+          <strong>Happy Valentines Day, Jia</strong>
+        </div>
+        <img src="catflower.gif" alt="Letter GIF" class="letter-gif" > 
+      </div>
+      <div class="big-heart"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const envelope = document.querySelector('.envelope-wrapper');
+envelope.addEventListener('click', () => {
+  envelope.classList.toggle('flap');
+});
+</script>
+
+</body>
+</html>
+
