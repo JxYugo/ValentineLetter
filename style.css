@@ -183,7 +183,7 @@ body{
 
 .corner-gif {
   position: fixed;
-  width: 30vw;
+  width: 15vw;
   height: auto;
   z-index: 0;
   pointer-events: none; 
@@ -208,6 +208,7 @@ body{
   height: auto;
   z-index: 2;          
 }
+
 
 
 
