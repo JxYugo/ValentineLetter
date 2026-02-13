@@ -199,6 +199,16 @@ body{
   right: 20px;
 }
 
+.topright-gif {
+  top: 20px;
+  right: 20px;
+}
+
+.topleft-gif {
+  top: 20px;
+  left: 20px;
+}
+
 .letter-gif {
   position: absolute;  
   top: 100px;           
@@ -208,6 +218,7 @@ body{
   height: auto;
   z-index: 2;          
 }
+
 
 
 
